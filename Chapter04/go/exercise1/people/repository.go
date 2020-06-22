@@ -6,10 +6,10 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/PacktPublishing/Mastering-Distributed-Tracing/Chapter04/go/lib/model"
+	"github.com/shuveb/Mastering-Distributed-Tracing/Chapter04/go/lib/model"
 )
 
-const dburl = "root:mysqlpwd@tcp(127.0.0.1:3306)/chapter04"
+const dburl = "root@tcp(127.0.0.1:3306)/chapter04"
 
 // Repository retrieves information about people.
 type Repository struct {

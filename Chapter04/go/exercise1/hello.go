@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/PacktPublishing/Mastering-Distributed-Tracing/Chapter04/go/exercise1/people"
+	"github.com/shuveb/Mastering-Distributed-Tracing/Chapter04/go/exercise1/people"
 )
 
 var repo *people.Repository
